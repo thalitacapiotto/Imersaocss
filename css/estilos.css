@@ -1,0 +1,52 @@
+body {
+  background-image: url('https://image.freepik.com/vetores-gratis/fundo-azul-degrade-com-efeito-bokeh_23-2148362565.jpg');
+  background-size: auto 155vh;
+  font-family: Unbutu;
+  height: 100vh;
+  color: White;
+  font-size: 12px;
+  }
+    
+.menu {
+background-color: white;
+position: fixed;
+width: 100vw;
+top: 0;
+}
+    
+.menu ul {
+display: flex;
+justify-content: space-around;
+}
+        
+.menu li {
+list-style: none;
+}
+      
+a {
+color: teal;
+text-decoration: none;
+}
+        
+a:hover {
+text-decoration: underline;
+}
+        
+.site-subtitle,
+.site-title {
+color: whiteskoke;
+text-align: center;
+}
+        
+.site-title {
+font-size: 4em;
+}
+    
+.site-subtitle {
+font-style: italic;
+}
+    
+.img-portfolio {
+height: 180px;
+width: 180px;
+}
